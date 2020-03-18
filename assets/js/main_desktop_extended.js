@@ -128025,9 +128025,9 @@ define('main_desktop_extended',[
             LoaderCollection.add({group:'main',id:'RESIZE_HAND_RIGHT_4',src:Config.CDN + '/img/resize/hand_right_4.png'});
             LoaderCollection.add({group:'main',id:'RESIZE_HAND_RIGHT_5',src:Config.CDN + '/img/resize/hand_right_5.png'});
 
-            LoaderCollection.add({group:'main',id:'GRAIN_1',src:Config.CDN + '/img/textures/_bg_grain_01.jpg'});
-            LoaderCollection.add({group:'main',id:'GRAIN_2',src:Config.CDN + '/img/textures/_bg_grain_02.jpg'});
-            LoaderCollection.add({group:'main',id:'GRAIN_3',src:Config.CDN + '/img/textures/_bg_grain_03.jpg'});
+            LoaderCollection.add({group:'main',id:'GRAIN_1',src:Config.CDN + '/img/textures/bg_grain_01.jpg'});
+            LoaderCollection.add({group:'main',id:'GRAIN_2',src:Config.CDN + '/img/textures/bg_grain_02.jpg'});
+            LoaderCollection.add({group:'main',id:'GRAIN_3',src:Config.CDN + '/img/textures/bg_grain_03.jpg'});
 
             // replaces LoaderCollection.on('complete', ...)
             Backbone.on('LOADER:HIDDEN',this.onLoaderComplete,this);
