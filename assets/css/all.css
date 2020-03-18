@@ -3371,7 +3371,7 @@ h2.overlay-text,h3.overlay-text,p.overlay-text,span.overlay-text {
 }
 
 .project__mobile.project__mobile--portrait .project__mobile-device {
-    background-image: url(../img/projects/_devices/mobile-portrait.png);
+    background-image: url(../img/projects/devices/mobile-portrait.png);
 }
 
 .project__mobile.project__mobile--portrait .project__mobile-screen {
@@ -3385,7 +3385,7 @@ h2.overlay-text,h3.overlay-text,p.overlay-text,span.overlay-text {
 }
 
 .project__mobile.project__mobile--landscape .project__mobile-device {
-    background-image: url(../img/projects/_devices/mobile-landscape.png);
+    background-image: url(../img/projects/devices/mobile-landscape.png);
 }
 
 .project__mobile.project__mobile--landscape .project__mobile-screen {
