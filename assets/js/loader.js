@@ -7259,7 +7259,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
         var n = [],
             r = [],
             s = null;
-        t.MOBILE ? (t.FLOW = t.FLOWS.MOBILE, r.push(t.CDN + "/css/all_mobile.css"), n.push("main_mobile", "text!/index_mobile.html!strip")) : t.OLD_DESKTOP ? (t.FLOW = t.FLOWS.BASIC, r.push(t.CDN + "/css/all.css"), n.push("main_desktop_extended", "text!/Resn/index_desktop.html!strip")) : t.TABLET ? (t.FLOW = t.FLOWS.TABLET, r.push(t.CDN + "/css/all.css"), n.push("main_desktop_extended", "text!/Resn/index_desktop.html!strip")) : (t.FLOW = t.FLOWS.EXTENDED, r.push(t.CDN + "/css/all.css"), n.push("main_desktop_extended", "text!/Resn/index_desktop.html!strip")),
+        t.MOBILE ? (t.FLOW = t.FLOWS.MOBILE, r.push(t.CDN + "/css/all_mobile.css"), n.push("main_mobile", "text!/Resn/index_mobile.html!strip")) : t.OLD_DESKTOP ? (t.FLOW = t.FLOWS.BASIC, r.push(t.CDN + "/css/all.css"), n.push("main_desktop_extended", "text!/Resn/index_desktop.html!strip")) : t.TABLET ? (t.FLOW = t.FLOWS.TABLET, r.push(t.CDN + "/css/all.css"), n.push("main_desktop_extended", "text!/Resn/index_desktop.html!strip")) : (t.FLOW = t.FLOWS.EXTENDED, r.push(t.CDN + "/css/all.css"), n.push("main_desktop_extended", "text!/Resn/index_desktop.html!strip")),
             function(t) {
                 for (var e = document.getElementsByTagName("head")[0], i = 0; i < t.length; i++) {
                     var n = document.createElement("link");
