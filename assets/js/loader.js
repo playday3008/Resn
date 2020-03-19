@@ -134,7 +134,7 @@
         var i = {
             SITE_URL: "http://",
             APP_URL: "https://apps.facebook.com/",
-            CDN: "./Resn/assets",
+            CDN: "./assets",
             ENV: "live",
             SOUND_MUTED: !1,
             REEL_VIMEO_ID: "326303343",
