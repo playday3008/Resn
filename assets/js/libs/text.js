@@ -85,9 +85,9 @@ define(['module'], function (module) {
         parseName: function (name) {
             var modName, ext, temp,
                 strip = false,
-                index = name.indexOf("."),
-                isRelative = name.indexOf('./') === 0 ||
-                             name.indexOf('../') === 0;
+                index = name.indexOf("../"),
+                isRelative = name.indexOf('.././') === 0 ||
+                             name.indexOf('../../') === 0;
 
             if (index !== -1 && (!isRelative || index > 1)) {
                 modName = name.substring(0, index);
