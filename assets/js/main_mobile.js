@@ -42841,7 +42841,7 @@ define('view/mobile/modules/work/overview/mobile_overview_project_item_view',[
             this.$text = this.$el.find('.overview__projectItem__text');
 
             // @TODO: lazyload poster
-            this.$poster.css({ 'background-image': 'url(./20200224011802_1_0_2aa0113/'+ this.model.attributes.poster +')' });
+            this.$poster.css({ 'background-image': 'url(./assets/'+ this.model.attributes.poster +')' });
         },
 
         addEvents: function() {
